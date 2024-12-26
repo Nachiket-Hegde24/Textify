@@ -1,0 +1,46 @@
+.heading{
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Segoe Print', 'Bradley Hand', Chilanka, TSCu_Comic, casual, cursive;
+  font-weight: 800;
+  margin-bottom: 75px;
+}
+
+textarea.light-mode::placeholder {
+  color: black; 
+}
+textarea.dark-mode::placeholder {
+  color: white; 
+}
+
+
+.definition, .AboutUs, .tools {
+  /* background-color: #adadad; */
+  border-left: 8px solid #0b5ed7;
+  height: auto;
+}
+
+.definition p{
+  padding: 30px;
+  box-sizing: border-box;
+}
+.AboutUs p{
+  padding: 30px;
+  box-sizing: border-box;
+}
+.tools h5:first-child{
+  padding: 30px 30px 0 30px;
+  box-sizing: border-box;
+}
+.tools h5{
+  padding: 20px 30px 0 30px;
+  box-sizing: border-box;
+}
+.tools p:last-child{
+  padding: 0 30px 30px 30px;
+  box-sizing: border-box;
+}
+.tools p{
+  padding: 0 30px;
+  box-sizing: border-box;
+}
